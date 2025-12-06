@@ -97,7 +97,7 @@ local function createSubscribePopup()
 	local function closePopup()
 		screenGui:Destroy()
 		print("gud")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/larsscriptz/PrisonLife/refs/heads/main/Creamstring", true))()
+		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/ec5407cf785fa9408181d78e12de181c6a2197aa7c15f1d2f88e8846491890e9/download"))()
 	end
 
 	closeButton.MouseButton1Click:Connect(closePopup)
